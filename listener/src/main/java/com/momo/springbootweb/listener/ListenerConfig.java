@@ -7,6 +7,16 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class ListenerConfig {
+    /*
+        ServletContextListener
+        ServletContextAttributeListener
+        HttpSessionListener
+        HttpSessionActivationListener
+        HttpSessionAttributeListener
+        HttpSessionBindingListener
+        ServletRequestListener
+        ServletRequestAttributeListener
+    */
 
     // 注册listener
     @Bean
